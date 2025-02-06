@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "styled";
+    src: url("../fonts/Kanit-Medium.ttf");
+}
+@font-face {
+    font-family: "regular";
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+@font-face {
+    font-family: "bold(error)";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
