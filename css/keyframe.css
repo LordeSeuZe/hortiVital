@@ -14,3 +14,9 @@
         border-color: transparent;
     }
 }
+
+@keyframes animatedText{
+    to{
+        background-position: 100%;
+    }
+}

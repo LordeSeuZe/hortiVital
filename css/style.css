@@ -32,6 +32,14 @@ button{
     color: #f0f8ee;
 }
 
+div{
+    border-radius: 5px;
+}
+
+#pag {
+    margin: 0 130px
+}
+
 #headerButton{
     position: absolute;
     right: 10%;
@@ -111,29 +119,43 @@ button{
 
 #divWelcome{
     background-color: var(--contrast-color);
-    color: #f0f8ee;
-}
-
-#divWelcome{
-    margin: 0 0 50px 0;
+    background-image: url("../img/HORTVITALCopia.png");
+    opacity: 0.9;
+    background-size: 100%;
+    margin: 0 0 30px 0;
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 200px; 
-    font-size: 2rem;
+    height: 80px; 
+    font-size: 2.5rem;
 }
 
-#welcome {   
-
-    border-right: 4px solid;
-    width: 38.5;
-    white-space: nowrap;
-    overflow: hidden;
-    opacity: 0;
+#divWelcome p{
+    background-image: linear-gradient(to right,  var(--secondary-color),var(--primary-color), var(--auxiliary-color));
+    -webkit-text-stroke-width: 0.1px ;
+    -webkit-text-stroke-color: var(--contrast-color);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    background-size: 300%;
+    background-position: -100%;
+    animation: animatedText 2s infinite alternate-reverse;
 }
 
-#welcome:nth-child(1) {
-    animation: typing 2s steps(47), blink 0.5s step-end 2s;
-    border-right: var(--auxiliary-color);
-    opacity: 100%;
+
+#hero img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#tags{
+margin: 70px 0;
+}
+
+#tags span{
+    background-color: var(--secondary-color);
+    padding: 5px 20px 5px 30px;
+    border-radius: 5px 50px 50px 5px;
+    font-size: 2.5rem;
+    color: #f0f8ee;
 }
