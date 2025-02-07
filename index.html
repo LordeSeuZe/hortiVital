@@ -16,19 +16,20 @@
 <body>
     <!-- Cabeçalho -->
     <header>
-        <img src="img/LOGO.png" alt="LOGO HORTVITAL">
         <div id="headerInput">
-            <form class="searchBar" action="javascript:;" method="get">
-                <input type="search" id="inputSearch" placeholder="O que está a procurando?">
-                <label for="inputSearch"><span class="searchIcon"></span></label>
-            </form>
+                <input id="searchTxt" type="search" placeholder="Oque Procuras?" >
+                <a id="searchBtn" href="#">
+                    <img src="img/LUPA.png" alt="lupa de pesquisa">  
+                </a>
+                   
         </div>
-        <div id="headerButtos">
-            <button>COMBOS</button>
-            <button>PRODUTOS</button>
+
+        <div id="headerButton">
+            <button id="combo">COMBOS</button>
+            <button id="products">PRODUTOS</button>
         </div>
     </header>
-        <!-- Primeira pagina -->
+    <!-- Primeira pagina -->
     <div id="pag1">
         <div id="welcome">
             <span id="h1Welcome">
@@ -39,7 +40,7 @@
             <img src="img/HORTVITAL.png" alt="banner HORTVITAL">
         </div>
     </div>
-        <!-- Pagina combos -->
+    <!-- Pagina combos -->
     <div id="tags">
         <span>PRODUTOS</span>
     </div>
