@@ -107,6 +107,33 @@ button{
 
 #headerInput:hover > #searchBtn{
     background-color: #f0f8ee;
-    
 }
 
+#divWelcome{
+    background-color: var(--contrast-color);
+    color: #f0f8ee;
+}
+
+#divWelcome{
+    margin: 0 0 50px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 200px; 
+    font-size: 2rem;
+}
+
+#welcome {   
+
+    border-right: 4px solid;
+    width: 38.5;
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#welcome:nth-child(1) {
+    animation: typing 2s steps(47), blink 0.5s step-end 2s;
+    border-right: var(--auxiliary-color);
+    opacity: 100%;
+}
