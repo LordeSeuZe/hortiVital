@@ -42,6 +42,11 @@ div{
     flex-direction: row;
 }
 
+#headerButton a {
+        text-decoration: none;
+        color: var(--neutral-color);
+}
+
 #combo,
 #products{
     width: 100%;
@@ -129,7 +134,7 @@ div{
     background-image: linear-gradient(to right,  var(--secondary-color),var(--primary-color), var(--auxiliary-color));
     -webkit-text-stroke-width: 0.1px ;
     -webkit-text-stroke-color: var(--contrast-color);
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-weight: 700;
     background-size: 300%;
