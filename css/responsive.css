@@ -1,0 +1,111 @@
+@media (max-width: 1024px) {
+    #pag {
+        margin: 0 20px; 
+    }
+
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    #headerInput {
+        position: static;
+        transform: none;
+        margin: 10px 0;
+        width: 90%;
+    }
+
+    #headerButton {
+        position: static;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #combo,
+    #products {
+        font-size: 1.2rem;
+        margin: 5px;
+    }
+
+    #divWelcome {
+        font-size: 1.5rem;
+        height: 60px;
+        text-align: center;
+    }
+
+    #hero img {
+        width: 100%;
+    }
+
+   
+    #productsHome {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+
+    #backProducts {
+        margin: 5px;
+    }
+
+    #backProducts img {
+        width: 150px;
+        height: 100px;
+    }
+
+    #productName {
+        font-size: 1rem;
+    }
+
+   
+    #comboHome {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+
+    #backCombos {
+        margin: 5px;
+    }
+
+    #comboName {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #headerInput {
+        width: 100%;
+    }
+
+    #headerInput:hover > #searchTxt {
+        width: 150px; 
+    }
+
+    #productsHome {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    #comboHome {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    #divWelcome {
+        font-size: 1.2rem;
+        height: 50px;
+    }
+
+    #tags span {
+        font-size: 1.5rem;
+    }
+
+    #backProducts button,
+    #backCombos button {
+        font-size: 1.2rem;
+    }
+}
